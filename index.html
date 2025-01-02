@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>千问AI助手</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="model-selector">
+            <label for="model-select">选择模型：</label>
+            <select id="model-select">
+                <option value="qwen-max">通义千问Max - 强大的认知理解能力</option>
+                <option value="qwen-plus">通义千问Plus - 均衡的性能表现</option>
+                <option value="qwen-long">通义千问Long - 支持超长对话</option>
+            </select>
+        </div>
+        
+        <div class="chat-container">
+            <div class="chat-messages" id="chat-messages"></div>
+            <div class="input-area">
+                <textarea id="user-input" placeholder="请输入您的问题..."></textarea>
+                <button id="send-button">发送</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
