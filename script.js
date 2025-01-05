@@ -1,5 +1,5 @@
 const API_KEY = '?';   #填入你的大模型API Key
-const BOT_AVATAR = 'xxx.jpg';   #输入你喜欢的图片变成机器人的头像(记得把图片放到根目录里)
+const BOT_AVATAR = '39abc5e90627cb6bded3c6686715bb2.jpg';   #别用我的头像，输入你喜欢的图片变成机器人的头像(记得把图片放到根目录里)
 
 class ChatBot {
     constructor() {
