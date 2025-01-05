@@ -69,12 +69,14 @@ fetch('https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions', {
         ]
     })
 })
+```
 
-Customization
+## Customization
 Chatbot Avatar: Modify the BOT_AVATAR variable to change the bot's avatar image. Place your image in the root directory and update the file name accordingly.
 AI Models: The available AI models are defined in the dropdown menu. You can change the options in the HTML file to add more models if needed.
-Known Issues
+
+## Known Issues
 The script relies on external APIs, and any downtime or limitations from those services may impact functionality.
 Ensure that the API key is valid to avoid authorization errors.
-License
+## License
 This project is open-source and available under the MIT License.
