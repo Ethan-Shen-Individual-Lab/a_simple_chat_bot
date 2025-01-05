@@ -1,5 +1,5 @@
-const API_KEY = 'sk-aec44eec4cda403f86aece0c6fbf16f0';
-const BOT_AVATAR = '39abc5e90627cb6bded3c6686715bb2.jpg';
+const API_KEY = '?';
+const BOT_AVATAR = 'xxx.jpg';   #输入你喜欢的图片变成机器人的头像(记得把图片放到根目录里)
 
 class ChatBot {
     constructor() {
